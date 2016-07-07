@@ -31,7 +31,7 @@ canvas {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #2B3E42;
+  background-color: #102a33;
   background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,21 +39,26 @@ canvas {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN SECTION */
 .mdas_title {
     font-family: raleway_b, Arial, Helvetica, sans-serif;
     font-size: 3em;
-}
-
-
-.section1 {
     text-align: center;
 }
 
-.section2 {
-}
 
-.section3 {
-}
-
-.section4 {
+/* MISSION SECTION */
+.mission {
+  background-color: #102a33;
 }
