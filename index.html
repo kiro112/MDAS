@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MDAS</title>
+    <neta charset="utf8" />
+    <meta author="Jairo Malanay" />
+
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/bower_components/fullpage.js/jquery.fullPage.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<div id="particles-js"></div>
+
+<div id="fullpage">
+    <div class="section section1 active">
+        <h1 class="mdas_title">
+            <span>MATHEMATICALLY</span>
+            <br>
+            <span>DISCIPLINED FOR THE</span>
+            <br>
+            <span>ADVANCEMENT OF</span>
+            <br>
+            <span>SOCIETY</span>
+        </h1>
+    </div>
+    <div class="section section2">Some section</div>
+    <div class="section section3">Some section</div>
+    <div class="section section4">Some section</div>
+</div>
+
+
+
+
+
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/fullpage.js/jquery.fullPage.min.js"></script>
+<script src="/bower_components/particles.js/particles.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $('#fullpage').fullpage();
+    });
+
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', '/assets/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'raleway_b';
+  src: url('/assets/fonts/Raleway-Bold.ttf'); /* IE9 Compat Modes */
+}
+
+/* Particles Background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;    
+}
+
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2B3E42;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+.mdas_title {
+    font-family: raleway_b, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+
+.section1 {
+    text-align: center;
+}
+
+.section2 {
+}
+
+.section3 {
+}
+
+.section4 {
+}
